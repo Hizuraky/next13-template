@@ -18,23 +18,32 @@ installed
 - eslint
 - prettier
 
+
 ## What's new in next13
 
-#### New app Directory (Beta)
+
+### New app Directory (Beta)
 
 The app directory includes support for:
 
-##### Layouts
+
+#### 【Layouts】
 
 Easily share UI between routes while preserving state and avoiding expensive re-renders.
+
 example ) ./app/layout.tsx && ./app/serverComponent/layout.tsx
 
-##### Server Components
+
+#### 【Server Components】
 
 Making server-first the default for the most dynamic applications.
+
 example ) ./app/serverComponent/page.tsx
 
-##### Streaming
+
+#### 【Streaming】
 
 Display instant loading states and stream in units of UI as they are rendered.
+
 example ) ./app/streaming/page.tsx && loading.tsx
+
